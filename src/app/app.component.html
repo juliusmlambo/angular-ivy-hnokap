@@ -1,0 +1,67 @@
+
+
+<mat-toolbar color="primary" class="navbar">
+  <div style="font-size:35px">LINKS.<span>com</span></div>
+  <div>
+    <span class="nav-item" routerLink="/employee">EMPLOYEE</span>
+    <span class="nav-item" routerLink="/department">DEPARTMENT</span>
+    <span class="nav-item" routerLink="/project">PROJECT</span>
+    </div>
+    
+</mat-toolbar>
+
+<app-employee></app-employee>
+<br clear="all">
+<router-outlet></router-outlet>
+
+<!--- <mat-toolbar color="primary" class="menu">
+  
+  <div>
+      <a routerLink="/home">EMPLOYEE DASHBOARD</a>
+  </div>
+  <div fxFlex fxLayout fxLayoutAlign="end" fxHide.xs>
+      <ul fxLayout fxLayoutGap="15px" class="navigation-items">
+          <li>
+              <a routerLink="/app">HOME</a>
+          </li>
+          <li>
+              <a routerLink="/form">ADD EMPLOYEE</a>
+          </li>
+      </ul>
+  </div> 
+</mat-toolbar> 
+
+<!--- <app-layout>
+  <mat-sidenav-container>
+    <mat-sidenav #sidenav role="navigation">
+      
+       <mat-toolbar color="primary" class="menu">
+  
+  <div>
+      <a routerLink="/home">EMPLOYEE DASHBOARD</a>
+  </div>
+  <div fxFlex fxLayout fxLayoutAlign="end" fxHide.xs>
+      <ul fxLayout fxLayoutGap="15px" class="navigation-items">
+          <li>
+              <a routerLink="/app">HOME</a>
+          </li>
+          <li>
+              <a routerLink="/form">ADD EMPLOYEE</a>
+          </li>
+      </ul>
+  </div> 
+</mat-toolbar> 
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <!--in here all the content must reside. We will add a navigation header as well
+      
+      <main>
+        <router-outlet></router-outlet>
+      </main>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</app-layout> --->
+
+
+
+

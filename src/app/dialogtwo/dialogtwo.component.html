@@ -1,0 +1,36 @@
+<mat-dialog-content>
+</mat-dialog-content>
+<mat-dialog-actions align="center">
+ 
+  <h1 mat-dialog-title>DETAILS</h1>
+
+  <div class="form-container">
+  <mat-form-field appearance="fill">
+    <mat-label formControlName="name">NAME</mat-label>
+    
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label formControlName="surname">SURNAME</mat-label>
+   
+  </mat-form-field>
+  <br>
+  <mat-form-field appearance="fill">
+    <mat-label formControlName="position">POSITION</mat-label>
+    <mat-select>
+      <mat-option value="option">DEVELOPER</mat-option>
+      <mat-option value="option">CEO</mat-option>
+      <mat-option value="option">INTERN</mat-option>
+      <mat-option value="option">JUNIOR DEVELOPER</mat-option>
+      <mat-option value="option">SENIOUR DEVELOPER</mat-option>
+      <mat-option value="option">EXECUTIVE DIRECTOR</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <br>
+  <mat-form-field appearance="fill">
+    <mat-label>Textarea</mat-label>
+    <textarea matInput></textarea>
+  </mat-form-field>
+</div>
+	<button mat-raised-button color="primary" tabindex="1">SAVE</button>
+	<button mat-raised-button mat-dialog-close tabindex="-1">CANCEL</button>
+</mat-dialog-actions>

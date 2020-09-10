@@ -1,0 +1,8 @@
+
+
+.navbar{font-family: monospace;justify-content: space-between;background-color:black;height: 50px;font-size: 20px;border-radius: 3px;max-width: 100%;text-align: center;color: gold}
+.navbar span{padding-right: 1rem;}
+.navbar span.active, span:hover{background: gray;transition: .2s;}
+.nav-item{padding: 5px;margin-right: 7px;}
+.nav-item:active{border-bottom:4px solid gold}
+.nav-item:hover{background-color:darkgray}
